@@ -1,0 +1,24 @@
+packages:
+  - "apps/*"
+
+overrides:
+  '@intlify/core-base': 9.14.5
+  '@intlify/message-resolver': 9.1.11
+  adm-zip: 0.6.0
+  jpeg-js: 0.4.4
+  'phin@>=3.0.0 <3.7.1': 3.7.1
+  postcss: 8.5.26
+  'ws@>=8.0.0 <8.21.3': 8.21.3
+
+onlyBuiltDependencies:
+  - '@parcel/watcher'
+  - core-js
+  - core-js-pure
+  - esbuild
+  - vue-demi
+allowBuilds:
+  '@parcel/watcher': true
+  core-js: true
+  core-js-pure: true
+  esbuild: true
+  vue-demi: true

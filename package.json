@@ -1,0 +1,17 @@
+{
+  "name": "neighbor-parking",
+  "version": "0.1.0",
+  "private": true,
+  "description": "面向小区场景的开源车位共享平台",
+  "scripts": {
+    "dev:h5": "pnpm --dir apps/parking-uniapp dev:h5",
+    "dev:mp-weixin": "pnpm --dir apps/parking-uniapp dev:mp-weixin",
+    "build:h5": "pnpm --dir apps/parking-uniapp build:h5",
+    "build:mp-weixin": "pnpm --dir apps/parking-uniapp build:mp-weixin",
+    "type-check": "pnpm --dir apps/parking-uniapp type-check"
+  },
+  "engines": {
+    "node": ">=20",
+    "pnpm": ">=9"
+  }
+}

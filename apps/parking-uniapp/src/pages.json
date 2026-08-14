@@ -1,0 +1,16 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "邻里车位"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "邻里车位",
+		"navigationBarBackgroundColor": "#F6F8F7",
+		"backgroundColor": "#F6F8F7"
+	}
+}
