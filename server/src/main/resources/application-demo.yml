@@ -1,0 +1,4 @@
+app:
+  auth:
+    # 仅用于显式启用 demo profile 的联调环境，生产环境禁止启用。
+    dev-enabled: true

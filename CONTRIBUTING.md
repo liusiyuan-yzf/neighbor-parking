@@ -13,8 +13,13 @@
 
 ```bash
 pnpm type-check
+pnpm format:check
 pnpm build:h5
 pnpm build:mp-weixin
+pnpm build:admin
+pnpm validate:compose
+pnpm audit --audit-level high
+cd server && ./mvnw test
 ```
 
 提交信息建议使用简洁的中文，例如：`初始化 uni-app 工程`、`修复重复预约校验`。

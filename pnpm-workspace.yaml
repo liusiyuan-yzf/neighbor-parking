@@ -8,6 +8,8 @@ overrides:
   jpeg-js: 0.4.4
   'phin@>=3.0.0 <3.7.1': 3.7.1
   postcss: 8.5.26
+  path-to-regexp: 0.1.13
+  vite: 6.4.3
   'ws@>=8.0.0 <8.21.3': 8.21.3
 
 onlyBuiltDependencies:

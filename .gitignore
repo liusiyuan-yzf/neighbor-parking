@@ -1,11 +1,14 @@
 node_modules/
 .pnpm-store/
 dist/
+target/
 unpackage/
 *.local
 *.log
+.env
 .idea/
 .vscode/
 .DS_Store
 Thumbs.db
 coverage/
+artifacts/

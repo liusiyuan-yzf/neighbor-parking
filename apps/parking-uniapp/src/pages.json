@@ -1,16 +1,60 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "邻里车位"
+				"navigationStyle": "custom"
 			}
+		},
+		{
+			"path": "pages/orders/index",
+			"style": { "navigationBarTitleText": "我的预约" }
+		},
+		{
+			"path": "pages/share/index",
+			"style": { "navigationBarTitleText": "共享车位" }
+		},
+		{
+			"path": "pages/profile/index",
+			"style": { "navigationBarTitleText": "我的" }
+		},
+		{
+			"path": "pages/login/index",
+			"style": { "navigationStyle": "custom" }
+		},
+		{
+			"path": "pages/space/detail",
+			"style": { "navigationBarTitleText": "车位详情" }
+		},
+		{
+			"path": "pages/booking/detail",
+			"style": { "navigationBarTitleText": "预约详情" }
+		},
+		{
+			"path": "pages/vehicles/index",
+			"style": { "navigationBarTitleText": "我的车辆" }
+		},
+		{
+			"path": "pages/share/edit",
+			"style": { "navigationBarTitleText": "登记车位" }
 		}
 	],
+	"tabBar": {
+		"color": "#718078",
+		"selectedColor": "#16794F",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "white",
+		"list": [
+			{ "pagePath": "pages/index/index", "text": "找车位" },
+			{ "pagePath": "pages/orders/index", "text": "订单" },
+			{ "pagePath": "pages/share/index", "text": "共享" },
+			{ "pagePath": "pages/profile/index", "text": "我的" }
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "邻里车位",
-		"navigationBarBackgroundColor": "#F6F8F7",
-		"backgroundColor": "#F6F8F7"
+		"navigationBarBackgroundColor": "#F4F7F5",
+		"backgroundColor": "#F4F7F5"
 	}
 }

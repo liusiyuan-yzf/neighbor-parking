@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+app:
+  auth:
+    dev-enabled: false
+  jwt:
+    secret: ${APP_JWT_SECRET}
