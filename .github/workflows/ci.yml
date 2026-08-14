@@ -22,9 +22,7 @@ jobs:
           java-version: "8"
           cache: maven
       - name: Test backend
-        run: |
-          chmod +x mvnw
-          ./mvnw -B test
+        run: mvn -B test
 
   frontend:
     runs-on: ubuntu-latest
@@ -32,7 +30,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
       - name: Enable pnpm
         run: corepack enable && corepack prepare pnpm@11.19.0 --activate
       - name: Install dependencies
